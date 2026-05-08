@@ -9,6 +9,7 @@
       "version": "1.0.0",
       "official": true,
       "tags": ["widget", "utility"],
+      "platforms": ["macos", "windows", "linux"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/clock.js"
     },
     {
@@ -20,17 +21,19 @@
       "version": "1.0.0",
       "official": true,
       "tags": ["widget", "system", "monitoring"],
+      "platforms": ["macos", "windows", "linux"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/system-monitor.js"
     },
     {
       "id": "spotify",
       "name": "Spotify",
       "description": "Control Spotify playback and see now playing",
-      "readme": "Control Spotify from your tablet.\n\n**Actions:**\n- `spotify:toggle` — Play/Pause\n- `spotify:next` — Next track\n\n**Widget:** Shows currently playing song and artist.\n\n**Requirements:** Spotify must be running on your PC. macOS only for now.",
+      "readme": "Control Spotify from your tablet.\n\n**Actions:**\n- `spotify:toggle` — Play/Pause\n- `spotify:next` — Next track\n\n**Widget:** Shows currently playing song and artist.\n\n**Requirements:** Spotify must be running on your PC. macOS only (uses osascript).",
       "author": "Deck",
       "version": "1.0.0",
       "official": true,
-      "tags": ["media", "music", "widget", "macos"],
+      "tags": ["media", "music", "widget"],
+      "platforms": ["macos"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/spotify.js"
     },
     {
@@ -42,6 +45,7 @@
       "version": "1.0.0",
       "official": true,
       "tags": ["productivity", "timer", "widget"],
+      "platforms": ["macos", "windows", "linux"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/pomodoro.js"
     }
   ]
