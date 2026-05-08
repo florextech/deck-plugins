@@ -23,6 +23,14 @@
       "author": "Deck",
       "version": "1.0.0",
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/spotify.js"
+    },
+    {
+      "id": "pomodoro",
+      "name": "Pomodoro Timer",
+      "description": "25 min focus timer with notification when done",
+      "author": "Deck",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/pomodoro.js"
     }
   ]
 }
