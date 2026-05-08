@@ -6,6 +6,8 @@
       "description": "Shows current time and date",
       "author": "Deck",
       "version": "1.0.0",
+      "official": true,
+      "tags": ["widget", "utility"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/clock.js"
     },
     {
@@ -14,6 +16,8 @@
       "description": "CPU, RAM usage and uptime widget",
       "author": "Deck",
       "version": "1.0.0",
+      "official": true,
+      "tags": ["widget", "system", "monitoring"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/system-monitor.js"
     },
     {
@@ -22,6 +26,8 @@
       "description": "Control Spotify playback and see now playing",
       "author": "Deck",
       "version": "1.0.0",
+      "official": true,
+      "tags": ["media", "music", "widget"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/spotify.js"
     },
     {
@@ -30,6 +36,8 @@
       "description": "25 min focus timer with notification when done",
       "author": "Deck",
       "version": "1.0.0",
+      "official": true,
+      "tags": ["productivity", "timer", "widget"],
       "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/pomodoro.js"
     }
   ]
