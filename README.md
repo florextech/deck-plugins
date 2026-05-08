@@ -6,10 +6,10 @@ Official plugin registry for [Deck](https://github.com/florextech/deck) — the 
 
 | Plugin | Description | Platforms |
 |--------|-------------|-----------|
-| 🕐 Clock | Live time and date widget | 🍎 🪟 🐧 |
-| 📊 System Monitor | CPU, RAM usage and uptime | 🍎 🪟 🐧 |
-| 🎵 Spotify | Playback control + now playing | 🍎 |
-| 🍅 Pomodoro Timer | 25 min focus timer | 🍎 🪟 🐧 |
+| Clock | Live time and date widget | macOS, Windows, Linux |
+| System Monitor | CPU, RAM usage and uptime | macOS, Windows, Linux |
+| Spotify | Playback control + now playing | macOS |
+| Pomodoro Timer | 25 min focus timer | macOS, Windows, Linux |
 
 ## Installing Plugins
 
@@ -95,7 +95,7 @@ module.exports = {
 ## Platform Support
 
 Plugins declare which platforms they support via the `platforms` field. Deck will:
-- Show platform badges (🍎 🪟 🐧) in the plugin store
+- Show platform badges in the plugin store
 - Warn users before installing on an unsupported platform
 - Allow enabling/disabling per-platform plugins without uninstalling
 
