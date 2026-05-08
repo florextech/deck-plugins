@@ -4,41 +4,45 @@
       "id": "clock",
       "name": "Clock",
       "description": "Shows current time and date",
+      "readme": "Adds a live clock widget that updates every second.\n\n**Widget:** Shows time (HH:MM:SS) and current date.\n\n**No configuration needed.** Just install and restart.",
       "author": "Deck",
       "version": "1.0.0",
       "official": true,
       "tags": ["widget", "utility"],
-      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/clock.js"
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/clock.js"
     },
     {
       "id": "system-monitor",
       "name": "System Monitor",
       "description": "CPU, RAM usage and uptime widget",
+      "readme": "Monitors your PC resources in real-time.\n\n**Widget data:**\n- CPU usage (%)\n- RAM usage (%)\n- System uptime\n- Hostname\n\nUpdates every 3 seconds.",
       "author": "Deck",
       "version": "1.0.0",
       "official": true,
       "tags": ["widget", "system", "monitoring"],
-      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/system-monitor.js"
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/system-monitor.js"
     },
     {
       "id": "spotify",
       "name": "Spotify",
       "description": "Control Spotify playback and see now playing",
+      "readme": "Control Spotify from your tablet.\n\n**Actions:**\n- `spotify:toggle` — Play/Pause\n- `spotify:next` — Next track\n\n**Widget:** Shows currently playing song and artist.\n\n**Requirements:** Spotify must be running on your PC. macOS only for now.",
       "author": "Deck",
       "version": "1.0.0",
       "official": true,
-      "tags": ["media", "music", "widget"],
-      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/spotify.js"
+      "tags": ["media", "music", "widget", "macos"],
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/spotify.js"
     },
     {
       "id": "pomodoro",
       "name": "Pomodoro Timer",
       "description": "25 min focus timer with notification when done",
+      "readme": "Focus timer based on the Pomodoro technique.\n\n**Action:** `pomodoro:toggle` — Start or cancel timer\n\n**Widget:** Shows remaining time (MM:SS) and status (idle/running).\n\n**How it works:**\n1. Start a 25-minute timer\n2. Get a notification + sound when time is up\n3. Take a break!\n\nPlays system sound on macOS when done.",
       "author": "Deck",
       "version": "1.0.0",
       "official": true,
       "tags": ["productivity", "timer", "widget"],
-      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/pomodoro.js"
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins-available/pomodoro.js"
     }
   ]
 }
