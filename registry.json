@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    {
+      "id": "clock",
+      "name": "Clock",
+      "description": "Shows current time and date",
+      "author": "Deck",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/clock.js"
+    },
+    {
+      "id": "system-monitor",
+      "name": "System Monitor",
+      "description": "CPU, RAM usage and uptime widget",
+      "author": "Deck",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/system-monitor.js"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "description": "Control Spotify playback and see now playing",
+      "author": "Deck",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/florextech/deck/main/plugins/spotify.js"
+    }
+  ]
+}
